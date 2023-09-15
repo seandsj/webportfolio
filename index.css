@@ -1,0 +1,120 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: open sans;
+	color: darkblue;
+}
+nav {
+	padding: 5px;
+	background-color: midnightblue;
+}
+nav li {
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	margin: 0.5rem;
+	padding: 3px;
+}
+
+#landing-proj {
+	background-image: url(https://images.unsplash.com/photo-1550850839-8dc894ed385a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2075&q=80);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	min-height: 120vh;
+	color: white;
+}
+
+#landing img {
+	padding: 20px;
+}
+
+#landing p {
+	color: white;
+	margin-left: 20rem;
+	margin-right: 20rem;
+	text-align: justify;
+}
+
+#landing h1 {
+	padding: 20px;
+	font-size: 3rem;
+	color: white;
+}
+
+#landing h2 {
+	margin: 1rem;
+	color: white;
+}
+
+#projects {
+	margin: 1.5rem 0 2rem;
+	text-align: center;
+	list-style: none;
+}
+
+#projects h2 {
+	margin: 1.5rem 0 2rem;
+	list-style: none;
+	color: white;
+}
+
+#projects li {
+	display: inline-block;
+	list-style: none;
+	border: 2px solid midnightblue;
+	border-radius: 10px;
+	padding: 3rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+#tools {
+	text-align: center;
+	list-style: none;
+	background-color: midnightblue;
+	padding: 1rem;
+
+}
+
+#tools h2 {
+	list-style: none;
+	color: white;
+}
+
+#contact {
+	text-align: center;
+	list-style: none;
+}
+
+#contact h2 {
+	margin: 0.5rem 0 0.5rem;
+	list-style: none;
+}
+
+form {
+	display: inline-block;
+	text-align: center;
+	list-style: none;
+	border: 2px solid midnightblue;
+	border-radius: 10px;
+	padding: 1rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+button {
+	padding: 0.5rem;
+	background-color: orange;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+footer {
+	background-color: lightsteelblue;
+	text-align: center;
+	padding: 0.5rem 0;
+	margin-top: 2rem;
+}
